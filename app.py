@@ -53,4 +53,4 @@ analyze_image_api.add_resource(AnalyzeImageResource, "/analyze")
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True, port=80)
+    app.run(host="0.0.0.0", debug=True, port=8000)
